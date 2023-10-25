@@ -1,0 +1,40 @@
+*{
+    margin: 0px;
+    padding: 0px;
+ }
+
+   body{
+          background-color: #E2F6CA;
+      }
+
+  .contact-container {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 50px;
+  }
+  .contact-image {
+      flex: 1;
+      padding: 20px;
+  }
+  .contact-form {
+      flex: 2;
+      padding: 20px;
+      background-color: #f4f4f4;
+      border-radius: 5px;
+  }
+  .form-group {
+      margin-bottom: 15px;
+  }
+  label {
+      font-weight: bold;
+  }
+  .form-control {
+      width: 100%;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+  }
+  .btn-primary {
+      width: 100%;
+  }
